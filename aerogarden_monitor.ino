@@ -11,7 +11,7 @@
 #define STATUS_LED    2
 
 // Update every 30 seconds = 0,5 minutes. Min with Thingspeak is ~20 seconds
-const int UPDATE_INTERVAL_SECONDS = 10;
+const int UPDATE_INTERVAL_SECONDS = 60;
 
 DHTesp dht_indoor;
 
